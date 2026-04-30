@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .models import Concerto, Dia
+from .models import Concerto, Dia, Palco
 
 
 def index_view(request):
