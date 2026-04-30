@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -73,7 +74,6 @@
 <body>
 
     <header>
-        {% load static %}
         <img src="{% static 'festival/NA26.png' %}" alt="NOS Alive" style="height: 150px; vertical-align: middle; margin-right: 15px;">
         <nav>
             <a href="{% url 'index' %}">Início</a>
